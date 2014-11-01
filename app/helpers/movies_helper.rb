@@ -3,7 +3,7 @@ module MoviesHelper
 		if stock == 0
 			content_tag(:span, "Out of stock", class: "out_stock")
 		else
-			content_tag(:span, "In Stock", class: "In_stock")
+			content_tag(:span, "In Stock", class: "in_stock")
 		end
 	end
 

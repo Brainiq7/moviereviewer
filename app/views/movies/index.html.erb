@@ -19,7 +19,7 @@
           <td><%= movie.title %></td>
           <td><%= movie.release_year %></td>
           <td><%= movie.description %></td>
-          <td><%= movie.price %></td>
+          <td><%= print_price(movie.price) %></td>
           <td><%= movie.director %></td>
           <td><%= link_to 'Show', movie %></td>
           <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
