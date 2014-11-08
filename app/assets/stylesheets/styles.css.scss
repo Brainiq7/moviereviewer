@@ -157,6 +157,9 @@ form div.field_with_errors label {
 //   padding: 20px;
 //   font-size: 1.25em;
 // }
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: orange;
+}
 /*************************
  STOCk
 **************************/
