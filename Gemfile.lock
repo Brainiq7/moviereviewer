@@ -161,7 +161,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   paperclip (~> 4.2)
-  paperclip-dropbox (>= 1.1.7)
+  paperclip-dropbox (>= 1.2.2)
   pg
   rails (= 4.1.6)
   rails_12factor
