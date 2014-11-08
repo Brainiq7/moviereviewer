@@ -8,8 +8,8 @@ class Movie < ActiveRecord::Base
   	 has_attached_file :poster, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "default.jpg"
   else
   	has_attached_file :poster, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "default.jpg",
-  							 :storage => :dropbox,
-    						 :dropbox_credentials => Rails.root.join("config/dropbox.yml")
+  							               :storage => :dropbox,
+    						               :dropbox_credentials => Rails.root.join("config/dropbox.yml")
   end
   
   validates_attachment_content_type :poster, :content_type => /\Aimage\/.*\Z/
